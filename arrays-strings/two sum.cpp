@@ -1,5 +1,7 @@
+#include <cstdlib>
+
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
-    int* result = (int*)malloc(2 * sizeof(int));
+    int* result = static_cast<int*>(std::malloc(2 * sizeof(int)));
 
     for (int i = 0; i < numsSize; i++) {
         for (int j = i + 1; j < numsSize; j++) {
@@ -13,6 +15,6 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     }
 
     *returnSize = 0;
-    free(result);
-    return NULL;
+    std::free(result);
+    return nullptr;
 }
