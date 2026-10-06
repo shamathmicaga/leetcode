@@ -29,3 +29,7 @@ Personal LeetCode practice log — part of B25GE0101 portfolio.
 | 07 | Move Zeroes | Basic Algorithms | Easy |
 | 08 | Valid Parentheses | Stacks | Easy |
 | 09 | Reverse Linked List | Linked Lists | Easy |
+## Projects
+
+### LeetCode Solutions
+A collection of my C++ solutions to coding problems, organized by topic to improve my problem-solving and data structures skills.
